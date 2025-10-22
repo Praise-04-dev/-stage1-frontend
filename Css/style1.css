@@ -1,0 +1,30 @@
+*{
+    background: rgb(216, 161, 161);
+    justify-content: left;
+}
+header{
+    background: #333;
+    color: black;
+    padding: 1rem 0;
+    margin-bottom: 1rem;
+    border: 1px solid black;
+}
+.h2{
+    text-align: justify;
+color: #333;
+margin: 1rem 1rem;
+;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+nav a  {
+color: wheat;
+text-decoration: none;
+}
+
+nav a :hover{
+text-decoration: underline;
+}

@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background: rgb(216, 161, 161);
+    justify-content: left;
+}
+header{
+    background: #333;
+    color: black;
+    padding: 1rem 0;
+    margin-bottom: 1rem;
+    border: 1px solid black;
+}
+    nav{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+nav a  {
+color: wheat;
+text-decoration: none;
+
+}
+
+nav a :hover{
+text-decoration: underline;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+input, textarea, button{
+    padding: 0.5rem;
+    border: 5px solid black;
+    border-radius: 5px;
+    width: 500px;
+}
+button{
+    background: #333;
+    color: white;
+    cursor: pointer;
+    width: 100px;
+
+}
+button :hover{
+    background: #333;
+}
+.error{
+    color: red;
+    font-size: 0.9rem;
+}
+.success{
+    color:green;
+    margin-top: 1rem;
+}
