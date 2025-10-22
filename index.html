@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<header class="header2">
+    <nav>
+        <a href="index.html" target="_blank">HOME</a>
+         <a href="About.html" target="_blank">ABOUT</a>
+          <a href="Contact.html" target="_blank">CONTACT</a>
+    </nav>
+</header>
+     <article data-testid="test-profile-card" class="card">
+       
+    <figure class="avatar-container">
+        <img src="Praise.jpg" alt="Profile picture" data-testid="test-user-avatar" class="avatar">
+
+    </figure>
+    
+   <div class="card-content">
+<header>
+    <h2  data-testid="test-user-name">Praise Oluleye</h2>
+</header>
+<p data-testid="test-user-bio">
+    Frontend developer passionate about accessible web experience
+</p>
+
+<p class="time">
+    Current time: <span data-testid="test-user-time" id="user-time" ></span>
+</p>
+<nav data-testid="test-user-social-links" class="social-link">
+<ul>
+    <li>
+        <a href="https://x.com/Loveth__praiz?t=H6qm_tyBwYdNQd4UJrKQcg&s=09"
+        data-testid="test-user-social-twitter"
+        target="_blank"
+        >Twitter</a>
+    </li>
+    <li>
+        <a href="https://www.instagram.com/loveth__praiz?igsh=aXYxcGN1MmQwNmUx"
+        data-testid="test-user-social-instagram"
+        target="_blank"
+        >Instagram</a>
+    </li>
+    <li>
+        <a href="https://www.snapchat.com/add/lovethp3370?share_id=X-g7EZjXUms&locale=en-US"
+        data-testid="test-user-social-snapchart"
+        target="_blank"
+        >Snapchart</a>
+    </li>
+</ul>
+</nav>
+<section>
+    <h3>Hobbies</h3>
+    <ul data-testid="test-user-hobbies">
+        <li>Coding</li>
+        <li>Reading</li>
+        <li>Gaming</li>
+    </ul>
+
+    <h3>Dislikes</h3>
+    <ul data-testid="test-user-dislikes">
+        <li>Washing</li>
+        <li>Travelling</li>
+    </ul>
+</section>
+   </div>
+     </article>
+     <script src="script.js"></script>
+</body>
+</html>

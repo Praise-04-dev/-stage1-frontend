@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="./Css/style2.css">
+</head>
+<body>
+    <header class="header2">
+    <nav>
+        <a href="index.html" target="_blank">HOME</a>
+         <a href="About.html" target="_blank">ABOUT</a>
+          <a href="Contact.html" target="_blank">CONTACT</a>
+    </nav>
+</header>
+<main>
+    <h1>Contact Me</h1>
+    <form id="contact-form" data-testid="test-contact-form" novalidate>
+        <label for="name">Full Name</label>
+        <input id="name" type="text" data-testid="test-contact-name" aria-describedby="error-name" required>
+        <p id="error-name" class="error" data-testid="test-contact-error-name"></p>
+
+        <label for="email">Email</label>
+        <input id="email" type="email" data-testid="test-contact-email" aria-describedby="error-email" required>
+        <p id="error-email" class="error" data-testid="test-contact-error-email" ></p>
+
+         <label for="subject">Subject</label>
+        <input id="subject" type="text" data-testid="test-contact-subject" aria-describedby="error-subject" required>
+        <p id="error-subject" class="error" data-testid="test-contact-error-subject" ></p>
+
+        <label for="message">Message</label>
+        <textarea id="message" data-testid="test-contact-message" aria-describedby="error-message" required minlength="10"></textarea>
+        <p id="error-message" class="error" data-test-id="test-contact-error-message" ></p>
+
+        <button type="submit" data-testid="test-contact-submit">Submit</button>
+
+        <p id="success" class="success" data-testid="test-contact-success" style="display: none;">Message sent successfully!</p>
+    </form>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
